@@ -1,102 +1,199 @@
 ---
 marp: true
-title: Product Documentation – Software Platform
+theme: default
 paginate: true
-theme: custom
-class: lead
-backgroundColor: white
+backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')
+style: |
+  section {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+  }
+  h2 {
+    color: #34495e;
+  }
+  h3 {
+    color: #7f8c8d;
+  }
+  strong {
+    color: #e74c3c;
+  }
+  table {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  blockquote {
+    background: #ecf0f1;
+    border-left: 4px solid #3498db;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
 ---
 
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80') -->
+<!-- _color: white -->
 <!-- _class: lead -->
-# Product Documentation Presentation
-📧 [21f2000670@ds.study.iitm.ac.in](mailto:21f2000670@ds.study.iitm.ac.in)
+
+# Q2 2025 Business Analysis
+## Data-Driven Insights
+
+### Technical Documentation & Analysis
+**Presenter:** 21f2000670@ds.study.iitm.ac.in
 
 ---
 
-## Agenda
-1. Introduction  
-2. Product Features  
-3. Architecture  
-4. Algorithmic Complexity  
-5. Roadmap  
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80') -->
+<!-- _class: invert -->
+
+# Executive Summary
+
+> **Performance Overview:** Q2 2025 delivered exceptional results across all key metrics
+
+- **Revenue Growth**: 15% increase compared to Q1 2025
+- **Market Expansion**: Entered 3 new regions
+- **Customer Base**: 25% growth in active users
+- **Profitability**: Improved margins by 8%
 
 ---
 
-## Key Features
-- RESTful API support  
-- Cloud-native deployment  
-- Role-based access control  
-- Audit logging and compliance ready  
+# Key Metrics Overview
+
+| Metric | Q1 2025 | Q2 2025 | Change |
+|--------|---------|---------|--------|
+| Revenue | $2.1M | $2.4M | +15% |
+| Users | 12,000 | 15,000 | +25% |
+| Retention | 85% | 89% | +4% |
+| Cost/User | $45 | $38 | -15% |
 
 ---
 
-<!-- _backgroundImage: url('https://picsum.photos/1600/900?blur') -->
-# Architecture Overview
-*This slide uses a background image.*  
+# Algorithm Performance Analysis
 
-The platform is designed with:  
-- **Microservices** for modularity  
-- **Message queues** for async processing  
-- **SQL + NoSQL hybrid storage**  
+## Data Processing Complexity
 
----
+Our analytics engine optimization results:
 
-## Algorithmic Complexity
+**Time Complexity Improvements:**
+- Previous algorithm: $O(n^2 \log n)$
+- New optimized version: $O(n \log n)$
 
-The search function operates with time complexity:  
+**Space Complexity:**
+- Memory usage: $O(n)$ where $n$ is dataset size
 
-\[
-T(n) = O(n \log n)
-\]
+**Performance Metrics:**
+$$\text{Efficiency Gain} = \frac{T_{old} - T_{new}}{T_{old}} \times 100\%$$
 
-The distributed query optimizer ensures:  
+Where $T_{old} = 2.3s$ and $T_{new} = 0.8s$
 
-\[
-S(n) = O(\log n)
-\]
+$$\text{Efficiency Gain} = \frac{2.3 - 0.8}{2.3} \times 100\% = 65.2\%$$
 
 ---
 
-## Conversion & Version Control
-- Written entirely in **Markdown** → easily version-controlled in Git.  
-- Exportable to **HTML, PDF, PPTX** with Marp CLI.  
-- External CSS theme ensures **consistent look & feel**.  
+# Market Performance
+
+![bg right:40% 80%](https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Revenue+Growth+Chart)
+
+- **Strong Q2 Performance**
+- Exceeded targets by 12%
+- Regional expansion successful
+- Cost optimization effective
 
 ---
+
+# Customer Insights
+
+- **Demographics**: 60% millennials, 25% Gen Z
+- **Geographic**: 40% urban, 35% suburban, 25% rural  
+- **Engagement**: Average session time increased 18%
+- **Satisfaction**: NPS score improved to 72
+
+---
+
+# Competitive Analysis
+
+![bg left:30% 90%](https://via.placeholder.com/300x200/2196F3/FFFFFF?text=Market+Share)
+
+### Our Position:
+- Market share: 18% (up from 15%)
+- 2nd largest in our segment
+- Key differentiator: Customer service
+- Competitive pricing advantage
+
+---
+
+# Financial Highlights
+
+- **Gross Margin**: 68% (target: 65%)
+- **Operating Expenses**: Reduced by 5%
+- **Cash Flow**: Positive $890K
+- **R&D Investment**: 12% of revenue
+
+---
+
+# Operational Efficiency
+
+![bg right:35% 85%](https://via.placeholder.com/350x250/FF9800/FFFFFF?text=Efficiency+Metrics)
+
+### Key Improvements:
+- Process automation: 30% faster
+- Error reduction: 25% decrease  
+- Team productivity: Up 20%
+- Customer response time: 40% faster
+
+---
+
+# Challenges & Risks
+
+- **Supply Chain**: Minor delays in Q3
+- **Competition**: New market entrants
+- **Regulations**: Upcoming compliance changes
+- **Talent**: Skills gap in tech roles
+
+---
+
+# Q3 2025 Outlook
+
+### Priorities:
+- Launch new product line
+- Expand international presence  
+- Strengthen supply chain partnerships
+- Invest in team development
+
+### Targets:
+- Revenue: $2.8M (+17%)
+- Users: 18,000 (+20%)
+
+---
+
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') -->
+<!-- _class: lead -->
 
 # Thank You
-📧 [21f2000670@ds.study.iitm.ac.in](mailto:21f2000670@ds.study.iitm.ac.in)  
-*Questions?*  
+## Questions & Discussion
 
+**Contact Information:**
+- **Email:** 21f2000670@ds.study.iitm.ac.in
+- **Analytics Dashboard:** company.com/analytics
+- **Next Review:** October 15, 2025
 
+---
 
-<!-- 🔹 Custom Theme Definition -->
-<style>
-:root {
-  --background-color: #ffffff;
-  --foreground-color: #2c5045ff;
-  --accent-color: #7a22e6ff;
-}
+<!-- _paginate: false -->
+<!-- _class: invert -->
 
-@theme custom {
-  section {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: transparent; /* allow background images */
-    color: var(--foreground-color);
-  }
-  h1, h2, h3 {
-    color: var(--accent-color);
-  }
-}
+## Document Information
 
-a {
-  color: #5d22e6ff;
-  text-decoration: none;
-}
+**Version Control:**
+- Repository: quarterly-earnings-presentation
+- Branch: main
+- Last Updated: August 17, 2025
 
-footer {
-  color: #8b8d7fff;
-  font-size: 0.8em;
-  text-align: center;
-}
-</style>
+**Formats Available:**
+- Markdown (source)
+- HTML (web presentation)
+- PDF (printable)
+- PowerPoint (export)
