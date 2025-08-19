@@ -198,3 +198,4 @@ $$\text{Efficiency Gain} = \frac{2.3 - 0.8}{2.3} \times 100\% = 65.2\%$$
 - PDF (printable)
 - PowerPoint (export)
 
+
